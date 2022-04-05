@@ -1,0 +1,257 @@
+{
+  "info": {
+    "_postman_id": "84b27517-a0dd-4449-a0ec-6b9b73b68d0d",
+    "name": "josep-conejero-learning-helper",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+  },
+  "item": [
+    {
+      "name": "{{origin}}question/",
+      "request": {
+        "auth": {
+          "type": "noauth"
+        },
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "{{origin}}question/",
+          "host": ["{{origin}}question"],
+          "path": [""]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "{{origin}}question/6227b67fc624c56733927e2c",
+      "protocolProfileBehavior": {
+        "disableBodyPruning": true
+      },
+      "request": {
+        "method": "GET",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": {
+          "raw": "{{origin}}question/62325a9696ce24cb65ea87fc",
+          "host": ["{{origin}}question"],
+          "path": ["62325a9696ce24cb65ea87fc"]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "{{origin}}question/6227b912c624c56733927e2f",
+      "request": {
+        "method": "DELETE",
+        "header": [],
+        "url": {
+          "raw": "{{origin}}question/62309f1ed15ac1ae77489f1a",
+          "host": ["{{origin}}question"],
+          "path": ["62309f1ed15ac1ae77489f1a"]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "{{origin}}question/",
+      "request": {
+        "method": "POST",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": " {\r\n     \"question\": \"¿Qué significa CI/CD? (variación 5)\",\r\n     \"answer\": \"CI / CD: Continuous Integration / Continous Deliver. se va volcando (integrando) constantemente en la rama máster. Despliegue continuo es una aproximación de ingeniería del software en que los equipos de desarrollo entregan funcionalidades de software de forma frecuente a través de la automatización de despliegues.​​​\"\r\n     }",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": {
+          "raw": "{{origin}}question/",
+          "host": ["{{origin}}question"],
+          "path": [""]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "{{origin}}question/6227b912c624c56733927e2d",
+      "request": {
+        "method": "PUT",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": " {\r\n     \"question\": \"Pregunta patcheada\",\r\n     \"answer\": \"Respuesta patcheada.​​​\"\r\n     }",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": {
+          "raw": "{{origin}}question/6233101f55462118aeb3d675",
+          "host": ["{{origin}}question"],
+          "path": ["6233101f55462118aeb3d675"]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "{{origin}}questionslist/",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "{{origin}}questionslist/",
+          "host": ["{{origin}}questionslist"],
+          "path": [""]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "{{origin}}questionslist/6233a3d6cea4bbcb8f8a597b",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "{{origin}}questionslist/6233a2ffcea4bbcb8f8a597a",
+          "host": ["{{origin}}questionslist"],
+          "path": ["6233a2ffcea4bbcb8f8a597a"]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "{{origin}}questionslist/6233a3d6cea4bbcb8f8a597b",
+      "request": {
+        "method": "DELETE",
+        "header": [],
+        "url": {
+          "raw": "{{origin}}questionslist/6233a3d6cea4bbcb8f8a597b",
+          "host": ["{{origin}}questionslist"],
+          "path": ["6233a3d6cea4bbcb8f8a597b"]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "{{origin}}questionslist/",
+      "request": {
+        "method": "POST",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "      {\r\n            \"listName\": \"Nombre 3\",\r\n            \"listSubject\": \"Materia 3\",\r\n            \"questions\": [],\r\n            \"username\": \"\"\r\n    \r\n        }",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": {
+          "raw": "{{origin}}questionslist/",
+          "host": ["{{origin}}questionslist"],
+          "path": [""]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "{{origin}}questionslist/62344541904016b4c467b50f",
+      "request": {
+        "method": "PUT",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "{\r\n    \"listName\": \"Nombre modificado\",\r\n    \"listSubject\": \"Materia modificada\",\r\n    \"questions\": [],\r\n    \"username\": \"\"\r\n  \r\n}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": {
+          "raw": "{{origin}}questionslist/62344541904016b4c467b50f",
+          "host": ["{{origin}}questionslist"],
+          "path": ["62344541904016b4c467b50f"]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "{{origin}}user/register",
+      "request": {
+        "method": "POST",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "{\r\n\"username\":\"iuserneim3\",\r\n\"password\":\"pasaporte3\",\r\n\"name\": \"josep\"\r\n\r\n\r\n}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": {
+          "raw": "{{origin}}user/register",
+          "host": ["{{origin}}user"],
+          "path": ["register"]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "{{origin}}user/login",
+      "request": {
+        "method": "POST",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "{\r\n\"username\":\"iuserneim3\",\r\n\"password\": \"pasaporte3\"\r\n\r\n}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": {
+          "raw": "{{origin}}user/login",
+          "host": ["{{origin}}user"],
+          "path": ["login"]
+        }
+      },
+      "response": []
+    }
+  ],
+  "event": [
+    {
+      "listen": "prerequest",
+      "script": {
+        "type": "text/javascript",
+        "exec": [""]
+      }
+    },
+    {
+      "listen": "test",
+      "script": {
+        "type": "text/javascript",
+        "exec": [""]
+      }
+    }
+  ],
+  "variable": [
+    {
+      "key": "origin",
+      "value": "https://josep-conejero-learning-helper.onrender.com/",
+      "type": "string"
+    }
+  ]
+}
